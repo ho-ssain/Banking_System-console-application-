@@ -35,6 +35,7 @@ public class Bank_Main {
             System.out.println("............Enter 0 to exit................... ");
 
             c1 = input.nextInt();
+            if(c1 == 0) break;
             switch(c1) {
               
                 case 1://Creating a new account
